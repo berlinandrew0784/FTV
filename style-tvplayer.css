@@ -1,0 +1,137 @@
+
+body{
+  
+background: #6C7989;
+  /*background: #6c7989 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6c7989), color-stop(100%, #434b55)) fixed;
+  background: #6c7989 -webkit-linear-gradient(#6c7989, #434b55) fixed;
+  background: #6c7989 -moz-linear-gradient(#6c7989, #434b55) fixed;
+  background: #6c7989 -o-linear-gradient(#6c7989, #434b55) fixed;
+  background: #6c7989 -ms-linear-gradient(#6c7989, #434b55) fixed;
+  background: #6c7989 linear-gradient(#6c7989, #434b55) fixed;*/
+  
+}
+
+
+header {
+  color: rgb(255,255,255);
+  text-align: center;
+  line-height: 1.2;
+  text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
+   -moz-border-radius: 8px 8px 0 0;
+  -webkit-border-radius: 8px 8px 0 0;
+  -o-border-radius: 8px 8px 0 0;
+  -ms-border-radius: 8px 8px 0 0;
+  -khtml-border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0 0;
+  
+  background:rgb(56,53,52);
+ /* background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%,#FDD9B5), color-stop(100%, #b55f2870));
+  background: -webkit-linear-gradient(#FDD9B5,#b55f2870);
+  background: -moz-linear-gradient(#FDD9B5,#b55f2870);
+  background: -o-linear-gradient(#FDD9B5,#b55f2870);
+  background: -ms-linear-gradient(#FDD9B5, #b55f2870);
+  background: linear-gradient(#FDD9B5, #b55f2870);*/
+  position: relative;
+  padding: 15px 20px;
+  border-bottom: 1px solid #B2D2E1;
+  
+}
+
+section  {
+  
+  text-align: center;
+  color:rgbrgb(254,254,254);
+  border-top: 1px solid #fff;
+
+  background: rgb(43,45,45);
+ /*background: -webkit-gradient(linear, 50% 0%, 50% 700, color-stop(0%, #53919c), color-stop(100%, #fbdbd2));
+  background: -webkit-linear-gradient(#53919c,#fbdbd2 700px);
+  background: -moz-linear-gradient(#53919c, #fbdbd2 700px);
+  background: -o-linear-gradient(#53919c, #fbdbd2 700px);
+  background: -ms-linear-gradient(#53919c, #fbdbd2 700px);
+  background: linear-gradient(#6ac7e5, #fbdbd2 700px);
+  -moz-border-radius: 0 0 8px 8px;
+  -webkit-border-radius: 0 0 8px 8px;
+  -o-border-radius: 0 0 8px 8px;
+  -ms-border-radius: 0 0 8px 8px;
+  -khtml-border-radius: 0 0 8px 8px;*/
+  border-radius: 0 0 8px 8px;
+  position: relative;
+  
+}
+
+section h2 {
+  color: rgb(176,180,189);
+text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
+  
+}
+
+
+section h3 {
+  color:rgb(199,225,232);
+text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
+  
+}
+section div {
+  
+
+}
+
+section li {
+  
+  text-align: left;
+  color:rgb(6,64,98);
+  padding: 15px 15px;
+}
+
+footer {
+  text-align: center;
+  color:rgb(254,254,254);
+  border-top: 1px solid #fff;
+  -moz-border-radius: 8px 8px 0 0;
+  -webkit-border-radius: 8px 8px 0 0;
+  -o-border-radius: 8px 8px 0 0;
+  -ms-border-radius: 8px 8px 0 0;
+  -khtml-border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0 0;
+ background:rgba(77,74,72,0.44);
+ /* background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%,#FDD9B5), color-stop(100%, #b55f2870));
+  background: -webkit-linear-gradient(#FDD9B5,#b55f2870);
+  background: -moz-linear-gradient(#FDD9B5,#b55f2870);
+  background: -o-linear-gradient(#FDD9B5,#b55f2870);
+  background: -ms-linear-gradient(#FDD9B5, #b55f2870);
+  background: linear-gradient(#FDD9B5, #b55f2870);*/
+  position: relative;
+  padding: 15px 20px;
+  border-bottom: 1px solid #B2D2E1;
+}
+
+footer h3{
+  
+  color: rgb(187,187,187);
+  text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
+}
+
+footer li {
+  
+  text-align: left;
+  
+}
+
+/* Стили кнопки */
+.button{
+display: inline-block;
+cursor: pointer; font-size:18px;
+text-decoration:none;
+padding:10px 20px; 
+color:rgb(194,212,233);
+background:#ffff0;
+border-radius:25px;
+border:2px solid #354251;
+}
+.button:hover{
+background:rgb(200,216,235);
+color:#ffffff;
+border:2px solid #354251;
+transition: all 0.2s ease;
+}
